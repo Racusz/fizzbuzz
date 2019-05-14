@@ -16,3 +16,6 @@ def fizzbuzz():
 if __name__ == '__main__':
     while True:
         fizzbuzz()
+        shall_continue = input('Print again?[y/n] ')
+        if shall_continue != 'y':
+            break
